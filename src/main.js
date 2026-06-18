@@ -3,9 +3,7 @@ import './style.css'
 document.querySelector('#app').innerHTML = `
   <div class="max-w-6xl mx-auto p-6">
 
-    <h2 class="text-2xl font-bold mb-4">
-      Matrícula: TU_NOMBRE - TU_MATRICULA
-    </h2>
+    
 
     <!-- DATATABLE -->
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
