@@ -1,16 +1,10 @@
 import './style.css'
-import javascriptLogo from './assets/javascript.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-
-
   <div class="max-w-6xl mx-auto p-6">
 
     <h2 class="text-2xl font-bold mb-4">
-      Matrícula: MARÍA GABRIELA VILLÓN PALMA - 202105870
+      Matrícula: TU_NOMBRE - TU_MATRICULA
     </h2>
 
     <!-- DATATABLE -->
@@ -28,9 +22,7 @@ document.querySelector('#app').innerHTML = `
 
         <tbody>
           <tr class="bg-white border-b">
-            <td class="px-6 py-4">Ejemplo</td>
-            <td class="px-6 py-4">10</td>
-            <td class="px-6 py-4">$5</td>
+            
           </tr>
         </tbody>
 
@@ -39,3 +31,5 @@ document.querySelector('#app').innerHTML = `
 
   </div>
 `
+
+import "./js/index.js";
